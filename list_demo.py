@@ -1,4 +1,5 @@
 
+print('1'+str(2))
 a = 1
 b = 3
 c = [9,b,a][a > b]  # 如果a > b返回list[1]，否则返回list[0]
