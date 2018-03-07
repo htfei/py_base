@@ -1,11 +1,5 @@
-
-a = 1
-b = 3
-c = [9,b,a][a > b]  # 如果a > b返回list[1]，否则返回list[0]
-print(c)
-
-c = a if a>b else b # 如果a > b返回a，否则返回b
-print(c)
+for i in range(2,5):
+    print(i)
 
 c = [ i for i in range(10) if i%2==0 ]  # 遍历list，在i为偶数时返回
 print(c)
