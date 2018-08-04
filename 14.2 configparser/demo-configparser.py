@@ -33,4 +33,4 @@ def test(config_file_path):
     cf.write(open(config_file_path, "w"))
 
 if __name__ == "__main__":
-    test("./innerPark.ini")
+    test("./test.ini")
